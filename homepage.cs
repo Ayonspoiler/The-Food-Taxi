@@ -66,7 +66,7 @@ namespace The_Food_Taxi
         private void logoutbutton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Login().Show();
+            new Login().Show(); //login page
         }
     }
 }
