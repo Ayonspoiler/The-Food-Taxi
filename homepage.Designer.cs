@@ -34,11 +34,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.menubutton = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.homebutton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.cartbutton = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
+            this.helpbutton = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -46,15 +46,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.mainbutton = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.logoutbutton = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.checkmenubutton = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.paymentbutton = new System.Windows.Forms.Button();
+            this.logoutbutton = new System.Windows.Forms.Button();
+            this.ohbutton = new System.Windows.Forms.Button();
+            this.profilebutton = new System.Windows.Forms.Button();
+            this.mainbutton = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.sideber1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.menubutton)).BeginInit();
@@ -62,8 +62,8 @@
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // sideber1
@@ -115,72 +115,72 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.button1);
+            this.panel5.Controls.Add(this.homebutton);
             this.panel5.Location = new System.Drawing.Point(3, 104);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(216, 68);
             this.panel5.TabIndex = 2;
             // 
-            // button1
+            // homebutton
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(45)))));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Image = global::The_Food_Taxi.Properties.Resources.homenew;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(219, 59);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "    Home";
-            this.button1.UseVisualStyleBackColor = false;
+            this.homebutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(45)))));
+            this.homebutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.homebutton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.homebutton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.homebutton.Image = global::The_Food_Taxi.Properties.Resources.homenew;
+            this.homebutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.homebutton.Location = new System.Drawing.Point(0, 3);
+            this.homebutton.Name = "homebutton";
+            this.homebutton.Size = new System.Drawing.Size(219, 59);
+            this.homebutton.TabIndex = 1;
+            this.homebutton.Text = "    Home";
+            this.homebutton.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.cartbutton);
             this.panel1.Location = new System.Drawing.Point(3, 178);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(242, 64);
             this.panel1.TabIndex = 1;
             // 
-            // button2
+            // cartbutton
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(45)))));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Image = global::The_Food_Taxi.Properties.Resources.cart_icon_png_white_11;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(219, 59);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "    Cart";
-            this.button2.UseVisualStyleBackColor = false;
+            this.cartbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(45)))));
+            this.cartbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.cartbutton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cartbutton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.cartbutton.Image = global::The_Food_Taxi.Properties.Resources.cart_icon_png_white_11;
+            this.cartbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.cartbutton.Location = new System.Drawing.Point(0, 2);
+            this.cartbutton.Name = "cartbutton";
+            this.cartbutton.Size = new System.Drawing.Size(219, 59);
+            this.cartbutton.TabIndex = 2;
+            this.cartbutton.Text = "    Cart";
+            this.cartbutton.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.button3);
+            this.panel2.Controls.Add(this.helpbutton);
             this.panel2.Location = new System.Drawing.Point(3, 248);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(216, 68);
             this.panel2.TabIndex = 1;
             // 
-            // button3
+            // helpbutton
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(45)))));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Image = global::The_Food_Taxi.Properties.Resources.help;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(219, 59);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "    Help";
-            this.button3.UseVisualStyleBackColor = false;
+            this.helpbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(45)))));
+            this.helpbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.helpbutton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.helpbutton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.helpbutton.Image = global::The_Food_Taxi.Properties.Resources.help;
+            this.helpbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.helpbutton.Location = new System.Drawing.Point(0, 3);
+            this.helpbutton.Name = "helpbutton";
+            this.helpbutton.Size = new System.Drawing.Size(219, 59);
+            this.helpbutton.TabIndex = 3;
+            this.helpbutton.Text = "    Help";
+            this.helpbutton.UseVisualStyleBackColor = false;
             // 
             // panel4
             // 
@@ -202,8 +202,9 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(219, 59);
             this.button4.TabIndex = 4;
-            this.button4.Text = "    About";
+            this.button4.Text = "    About Us";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // panel6
             // 
@@ -253,70 +254,44 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Let\'s Order To Food Now";
             // 
-            // button5
+            // checkmenubutton
             // 
-            this.button5.BackColor = System.Drawing.Color.Black;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(324, 347);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(174, 37);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Check Out Restaurant";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::The_Food_Taxi.Properties.Resources.fotor_2023_3_8_9_11_39;
-            this.pictureBox2.Location = new System.Drawing.Point(1096, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(68, 66);
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
-            // 
-            // mainbutton
-            // 
-            this.mainbutton.BackColor = System.Drawing.Color.Red;
-            this.mainbutton.FlatAppearance.BorderSize = 0;
-            this.mainbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.mainbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mainbutton.Image = global::The_Food_Taxi.Properties.Resources.fotor_2023_3_8_10_0_17;
-            this.mainbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.mainbutton.Location = new System.Drawing.Point(0, 3);
-            this.mainbutton.Name = "mainbutton";
-            this.mainbutton.Size = new System.Drawing.Size(187, 51);
-            this.mainbutton.TabIndex = 10;
-            this.mainbutton.Text = "   Welcome";
-            this.mainbutton.UseVisualStyleBackColor = false;
-            this.mainbutton.Click += new System.EventHandler(this.mainbutton_Click);
+            this.checkmenubutton.BackColor = System.Drawing.Color.Black;
+            this.checkmenubutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkmenubutton.ForeColor = System.Drawing.Color.White;
+            this.checkmenubutton.Location = new System.Drawing.Point(324, 347);
+            this.checkmenubutton.Name = "checkmenubutton";
+            this.checkmenubutton.Size = new System.Drawing.Size(174, 37);
+            this.checkmenubutton.TabIndex = 7;
+            this.checkmenubutton.Text = "Check Out Restaurant";
+            this.checkmenubutton.UseVisualStyleBackColor = false;
             // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.panel7.Controls.Add(this.button6);
+            this.panel7.Controls.Add(this.paymentbutton);
             this.panel7.Controls.Add(this.logoutbutton);
-            this.panel7.Controls.Add(this.button8);
-            this.panel7.Controls.Add(this.button7);
+            this.panel7.Controls.Add(this.ohbutton);
+            this.panel7.Controls.Add(this.profilebutton);
             this.panel7.Controls.Add(this.mainbutton);
-            this.panel7.Location = new System.Drawing.Point(882, 12);
+            this.panel7.Location = new System.Drawing.Point(896, 12);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(190, 256);
             this.panel7.TabIndex = 11;
             // 
-            // button6
+            // paymentbutton
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(0, 148);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(190, 54);
-            this.button6.TabIndex = 14;
-            this.button6.Text = "   Payment";
-            this.button6.UseVisualStyleBackColor = false;
+            this.paymentbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.paymentbutton.FlatAppearance.BorderSize = 0;
+            this.paymentbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.paymentbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.paymentbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.paymentbutton.Location = new System.Drawing.Point(0, 148);
+            this.paymentbutton.Name = "paymentbutton";
+            this.paymentbutton.Size = new System.Drawing.Size(190, 54);
+            this.paymentbutton.TabIndex = 14;
+            this.paymentbutton.Text = "   Payment";
+            this.paymentbutton.UseVisualStyleBackColor = false;
             // 
             // logoutbutton
             // 
@@ -333,33 +308,60 @@
             this.logoutbutton.UseVisualStyleBackColor = false;
             this.logoutbutton.Click += new System.EventHandler(this.logoutbutton_Click);
             // 
-            // button8
+            // ohbutton
             // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(0, 100);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(190, 54);
-            this.button8.TabIndex = 12;
-            this.button8.Text = "  Order History";
-            this.button8.UseVisualStyleBackColor = false;
+            this.ohbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ohbutton.FlatAppearance.BorderSize = 0;
+            this.ohbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ohbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ohbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ohbutton.Location = new System.Drawing.Point(0, 100);
+            this.ohbutton.Name = "ohbutton";
+            this.ohbutton.Size = new System.Drawing.Size(190, 54);
+            this.ohbutton.TabIndex = 12;
+            this.ohbutton.Text = "  Order History";
+            this.ohbutton.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // profilebutton
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(0, 53);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(190, 48);
-            this.button7.TabIndex = 11;
-            this.button7.Text = "   Profile";
-            this.button7.UseVisualStyleBackColor = false;
+            this.profilebutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.profilebutton.FlatAppearance.BorderSize = 0;
+            this.profilebutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.profilebutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profilebutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.profilebutton.Location = new System.Drawing.Point(0, 53);
+            this.profilebutton.Name = "profilebutton";
+            this.profilebutton.Size = new System.Drawing.Size(190, 48);
+            this.profilebutton.TabIndex = 11;
+            this.profilebutton.Text = "   Profile";
+            this.profilebutton.UseVisualStyleBackColor = false;
+            this.profilebutton.Click += new System.EventHandler(this.profilebutton_Click);
+            // 
+            // mainbutton
+            // 
+            this.mainbutton.BackColor = System.Drawing.Color.Red;
+            this.mainbutton.FlatAppearance.BorderSize = 0;
+            this.mainbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mainbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mainbutton.Image = global::The_Food_Taxi.Properties.Resources.fotor_2023_3_8_10_0_17;
+            this.mainbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.mainbutton.Location = new System.Drawing.Point(3, 3);
+            this.mainbutton.Name = "mainbutton";
+            this.mainbutton.Size = new System.Drawing.Size(187, 51);
+            this.mainbutton.TabIndex = 10;
+            this.mainbutton.Text = "   Welcome";
+            this.mainbutton.UseVisualStyleBackColor = false;
+            this.mainbutton.Click += new System.EventHandler(this.mainbutton_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::The_Food_Taxi.Properties.Resources.fotor_2023_3_8_9_11_39;
+            this.pictureBox2.Location = new System.Drawing.Point(1107, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(68, 66);
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
             // 
             // homepage
             // 
@@ -367,9 +369,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::The_Food_Taxi.Properties.Resources.new_hd;
             this.ClientSize = new System.Drawing.Size(1200, 556);
-            this.Controls.Add(this.panel7);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.panel7);
+            this.Controls.Add(this.checkmenubutton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.sideber1);
@@ -386,8 +388,8 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -397,12 +399,12 @@
 
         private System.Windows.Forms.FlowLayoutPanel sideber1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button homebutton;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button cartbutton;
+        private System.Windows.Forms.Button helpbutton;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Panel panel6;
@@ -412,14 +414,14 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button mainbutton;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Button logoutbutton;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button checkmenubutton;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Button paymentbutton;
+        private System.Windows.Forms.Button logoutbutton;
+        private System.Windows.Forms.Button ohbutton;
+        private System.Windows.Forms.Button profilebutton;
+        private System.Windows.Forms.Button mainbutton;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

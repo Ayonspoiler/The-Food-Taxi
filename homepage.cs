@@ -35,7 +35,7 @@ namespace The_Food_Taxi
                 if (sideber1.Width == sideber1.MaximumSize.Width)
                 {
                     sideberExpand = true;
-                    sidebertimer.Stop();
+                    sidebertimer.Stop(); 
                 }
             }
         }
@@ -66,7 +66,19 @@ namespace The_Food_Taxi
         private void logoutbutton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Login().Show(); //login page
+            new Login().Show(); //logging out
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new About().Show();
+        }
+
+        private void profilebutton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new profile().Show();
         }
     }
 }
