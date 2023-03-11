@@ -263,6 +263,16 @@ namespace The_Food_Taxi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap splashone {
+            get {
+                object obj = ResourceManager.GetObject("splashone", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap The_Food_Taxi_logo {
             get {
                 object obj = ResourceManager.GetObject("The Food Taxi logo", resourceCulture);

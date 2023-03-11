@@ -13,3 +13,4 @@ C:\Users\HP\Desktop\Coding in C#\The Food Taxi\obj\Debug\The Food Taxi.pdb
 C:\Users\HP\Desktop\Coding in C#\The Food Taxi\obj\Debug\The_Food_Taxi.homepage.resources
 C:\Users\HP\Desktop\Coding in C#\The Food Taxi\obj\Debug\The_Food_Taxi.About.resources
 C:\Users\HP\Desktop\Coding in C#\The Food Taxi\obj\Debug\The_Food_Taxi.profile.resources
+C:\Users\HP\Desktop\Coding in C#\The Food Taxi\obj\Debug\The_Food_Taxi.splash.resources
